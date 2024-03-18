@@ -11,6 +11,9 @@ int main(){
         hour--;
         min = min+60;
     }
+    if(hour<0){
+        hour = 23;
+    }
     printf("%d %d",hour , min);
     
 }
