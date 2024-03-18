@@ -8,4 +8,6 @@ int main(){
     if(di1 == di2 && di2 == di3){
         printf("%d",10000+di1*1000);
     }else if()
+
+    
 }
