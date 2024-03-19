@@ -7,7 +7,7 @@ int main(){
 
     if(di1 == di2 && di2 == di3){
         printf("%d",10000+di1*1000);
-    }else if(di1 != di2 && di2 != di3){
+    }else if(di1 != di2 && di2 != di3 && di1!=di3){
         if(di1>di2){
             if(di1>di3){
                 printf("%d",100*di1);
