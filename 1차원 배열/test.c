@@ -8,4 +8,6 @@ int main(){
 
     printf("test");
     scanf("%d",&a);
+
+    
 }
