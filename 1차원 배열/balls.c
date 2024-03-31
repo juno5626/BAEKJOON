@@ -13,7 +13,8 @@ int main(){
 
         for(int o = i-1 ; o<=j-1 ;o++){
             a[o]=num;
-        }   
+        }     
+        
     }
     for(int w = 0 ; w<N ; w++){
         printf("%d ",a[w]);
