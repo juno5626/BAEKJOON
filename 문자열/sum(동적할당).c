@@ -7,8 +7,10 @@ int main(){
     int total = 0; 
     scanf("%d",&a);
 
-    char num[a];
+    char* num = (char*)malloc(sizeof(num[a]));
     char one;
+
+    
 
     scanf("%s",num);
 
