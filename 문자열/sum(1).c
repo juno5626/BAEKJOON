@@ -17,7 +17,6 @@ int main(){
     for(int i = 0 ; i<a ; i++){
         one = num[i];
         total = total + atoi(&one);
-        printf("%d",atoi(&one));
     }
 
     printf("%d",total);
