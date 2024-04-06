@@ -15,7 +15,7 @@ int main(){
         scanf("%d",&r);
         scanf("%s",s);
         
-        p[i]=(char*)malloc(strlen(s)+strlen(s)+strlen(s)+strlen(s)+strlen(s)+strlen(s)+strlen(s)+strlen(s));
+        p[i]=(char*)malloc(strlen(s)*8);
 
 
         for(int o = 0 ; o < strlen(s) ;o++){
